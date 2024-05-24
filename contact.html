@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jessica Brown</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--CSS for the main colors   <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />-->
+    <!--Need to update the stylesheet, so download the lumen theme and then place it in your folder, this is going to use  a relative link instead of the cdn;)-->
+    <link rel="stylesheet" href="bootstrap-quartz.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* Remove the navbar's default margin-bottom and rounded borders */
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+
+      /* Add a gray background color and some padding to the footer */
+      footer {
+        background-color: #f2f2f2;
+        padding: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Portfolio</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="index.html"><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Container (Contact Section) -->
+    <div class="container-fluid bg-grey">
+      <h2 class="text-center">CONTACT</h2>
+      <div class="row">
+        <div class="col-sm-5">
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p>
+            <span class="glyphicon glyphicon-map-marker"></span> Chicago, US
+          </p>
+          <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+          <p>
+            <span class="glyphicon glyphicon-envelope"></span>
+            jessicabrown@gmail.com
+          </p>
+        </div>
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+            </div>
+            <div class="col-sm-6 form-group">
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+          <textarea
+            class="form-control"
+            id="comments"
+            name="comments"
+            placeholder="Comment"
+            rows="5"
+          ></textarea
+          ><br />
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">
+                Send
+              </button>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!--Footer-->
+    <footer class="container-fluid text-center">
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        © 2024 Copyright:
+        <a class="text-body" href="https://jessicabrown.com/"
+          >JessicaBrown.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>
